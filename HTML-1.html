@@ -2,16 +2,27 @@
 
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>PTT toren</title>
     <style>
         body{
+          font-family: 'Roboto', sans-serif;
+          margin: 0;
+          padding: 0;
             background-color: #F4F2F2;
             overflow: auto;
             border-style: solid;
             border-color: #F4F2F2;
             color: #17242A;
         }
+        
+        h1 {
+          font-size: 50px;
+          text-align: center;
+          color: white;
+        }
+        
       .driehoek{
         width: 0;
         height: 0;
@@ -39,7 +50,6 @@
         }
         .blok1{
             padding: 20px;
-            font-family: 'Roboto', sans-serif;
             border: solid;
             border-color: white; 
             position: relative;
@@ -57,11 +67,11 @@
             border-color: #F4F2F2;
         }
         .footer{
-            background-color:#17242A;
-            color: white;
-            height: 100px;
-            z-index: 5;
-            position: absolute; 
+          position: absolute;
+          right: 0;
+          left: 0;
+          padding: 1rem;
+          text-align: center;
         }
             
             
@@ -70,14 +80,34 @@
             position: 
         }
         
+        @media (max-width:641px)  {
+          img.Ltoren {
+            display: none;
+          }
+          .driehoek{
+            display:none;
+          }
+          .blok1{
+            display: block;
+            box-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+            border: 0;
+            width: auto;
+            left: 0;
+            right:0;
+            margin: 0 auto;
+          }
+        }
+        
     </style>
 </head>
 <body>
 <div class="alles">
          <div class="driehoek"></div>
-        <img src="pngLogoPTT.png" alt="logo PTT toren">
+        <!-- <img src="pngLogoPTT.png" alt="logo PTT toren"> -->
+        <h1>PTTtoren Haarlem</h1>
         <img class="Ltoren"src="TORENPTT.png" alt="logo PTT toren">
     <div class="blok1">
+      <h2>Title</h2>
         <p>Lorem ipsum dolor sit amet,
         consectetuer adipiscing elit. Aenean commodo ligula
         eget dolor. Aenean massa. Cumsociis natoque penatibus et magnis dis
@@ -99,6 +129,7 @@
     </div>
     <br> <br> <br> <br> <br>
     <div class="blok1">
+      <h2>Title</h2>
         <p>Lorem ipsum dolor sit amet,
         consectetuer adipiscing elit. Aenean commodo ligula
         eget dolor. Aenean massa. Cumsociis natoque penatibus et magnis dis
@@ -120,6 +151,7 @@
     </div>
     <br> <br> <br> <br> <br>
     <div class="blok1">
+      <h2>Title</h2>
         <p>Lorem ipsum dolor sit amet,
         consectetuer adipiscing elit. Aenean commodo ligula
         eget dolor. Aenean massa. Cumsociis natoque penatibus et magnis dis
@@ -141,6 +173,7 @@
     </div>
     <br> <br> <br> <br> <br>
     <div class="blok1">
+      <h2>Title</h2>
         <p>Lorem ipsum dolor sit amet,
         consectetuer adipiscing elit. Aenean commodo ligula
         eget dolor. Aenean massa. Cumsociis natoque penatibus et magnis dis
@@ -160,91 +193,9 @@
         </p>
             
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <div class="footer">
-        <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
-        libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit
-        amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a
-        libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem
-        in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cub
-        ilia Curae; In ac dui quis mi consectetuer lacinia.
+      <div class="footer">
+        <p>
+          2018 PTT toren Haarlem
         </p> 
     </div>
 </div>
